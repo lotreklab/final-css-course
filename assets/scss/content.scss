@@ -1,0 +1,68 @@
+
+.hero {
+    height: 200px;
+    text-align: center;
+    background-color:red;
+    color: cyan;
+    min-height: 90vh;
+    background: url('https://i.pinimg.com/originals/ab/53/98/ab5398cf5eee70433c1fe2cd7ff299e7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    background: aquamarine
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: none;
+}
+
+.info_card {
+    text-align: center;
+    padding: 2rem;
+}
+
+.cards {
+    text-align: center;
+}
+
+.sitecard {
+    padding: 1rem;
+}
+
+.footer_container {
+    padding: 1rem;
+    &__link {
+        display: block;
+        &:link {
+            color: white;
+        }
+
+        /* visited link */
+        &:visited {
+            color: white;
+        }
+
+        /* mouse over link */
+        &:hover {
+            color: white;
+        }
+
+        /* selected link */
+        &:active {
+            color: white;
+        }
+    }
+}
+
+header {
+    content: block;
+}
+
+footer {
+    background: seagreen;
+    text-align: center;
+}

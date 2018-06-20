@@ -1,0 +1,20 @@
+{
+  "name": "finalexam",
+  "version": "1.0.0",
+  "repository": "",
+  "author": "Andrea Stagi",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-minify": "^2.1.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^3.2.1",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "gulp-uglify": "^3.0.0"
+  }
+}
