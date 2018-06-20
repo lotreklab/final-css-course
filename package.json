@@ -4,6 +4,9 @@
   "repository": "",
   "author": "Andrea Stagi",
   "license": "MIT",
+  "scripts": {
+    "build" : "gulp"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
